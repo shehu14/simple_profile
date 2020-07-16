@@ -1,7 +1,7 @@
 body {
     /*color: #fff;*/
     text-align: center;
-    text-shadow: 0 1px 0px rgba(0,0,0,.5);
+    text-shadow: 0 1px 0px rgba(0, 0, 0, .5);
 }
 
 header {
@@ -9,6 +9,7 @@ header {
     opacity: 0.3;
     padding-bottom: 15px;
 }
+
 .circles img {
     width: 170px;
     height: 170px;
@@ -36,8 +37,8 @@ header {
 
 .btn {
     display: inline-block;
-    padding: 8px 18px;
-
+    padding: 6px 12px;
+    margin-bottom: 0;
     font-weight: normal;
     line-height: 1.42857143;
     text-align: center;
@@ -50,35 +51,42 @@ header {
     border-radius: 4px;
     text-decoration: none;
 }
+
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.75rem;
     text-decoration: none;
-    font-family: 'Bree Serif', serif;
 }
+
 h3:hover {
     text-decoration: none;
 }
+
 h4 {
     font-size: 1.5rem;
     color: rgb(33, 33, 139);
-    
-}
-i {
-padding: 15px;
-font-family: sans-serif;
-color: rgb(33, 33, 139);
 
 }
+
+i {
+    padding: 15px;
+    font-family: sans-serif;
+    color: rgb(33, 33, 139);
+
+}
+
 .links li a .i {
     font-size: 75px;
     text-decoration: none;
     height: 10px;
     margin-top: 1rem;
+
+
 }
 
 a:hover {
     text-decoration: none;
 }
+
 ul {
     list-style-type: none;
 }
@@ -92,6 +100,7 @@ ul {
     opacity: 0.2;
     padding: 1 rem;
 }
+
 .links li:hover {
     opacity: 2;
 }
